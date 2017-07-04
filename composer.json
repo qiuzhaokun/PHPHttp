@@ -23,7 +23,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Larry": "src/"
+      "larry\\http\\": "src/",
+      "larry\\http\\test\\": "test/"
     }
   }
 }
