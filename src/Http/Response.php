@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinelab\Http;
+namespace Larry\Http;
 
 use Larry\Http\Contracts\ResponseInterface;
 use Larry\Http\Exceptions\HttpClientRequestFailedException;

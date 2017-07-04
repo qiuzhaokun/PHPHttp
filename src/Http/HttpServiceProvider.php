@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinelab\Http;
+namespace Larry\Http;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinelab\Http;
+namespace Larry\Http;
 
 use Tolerance\Operation\Callback;
 use Tolerance\Operation\Runner\CallbackOperationRunner;
