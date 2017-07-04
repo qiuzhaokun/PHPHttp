@@ -1,0 +1,29 @@
+{
+  "name": "larry/http",
+  "type": "library",
+  "description": "A library provided by larry",
+  "keywords": [
+    "http",
+    "library",
+    "larry",
+    "curl"
+  ],
+  "homepage": "http://qiuzhaokun.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "larry",
+      "email": "DivinerQiu@163.com",
+      "homepage": "http://qiuzhaokun.com",
+      "role": "Developer"
+    }
+  ],
+  "require:": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larry": "src/"
+    }
+  }
+}
