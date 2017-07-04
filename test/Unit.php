@@ -7,11 +7,12 @@
 
 namespace Larry\Http\Test;
 
+use Larry\Http\Request;
 
 class Unit
 {
-    public static function fn()
+    public static function get()
     {
-        echo 'hello: ' . __METHOD__ . "\n";
+        return Request::get('http://www.baidu.com', '');
     }
 }
